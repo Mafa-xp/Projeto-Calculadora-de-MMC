@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: #e9e7de;
+}
+#container{
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+h1{
+    color: #060630;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    
+}
+p{
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+section{
+    display: flex;
+}
+
+section div{
+    display: flex;
+    flex-direction: column;
+    margin: 0 24px;
+}
+label{
+    font-size: 0.8rem;
+}
+input{
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: solid 1px #060630;
+    width: 120px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.calcular, .limpar{
+    padding: 10px 20px;
+    border-radius: 40px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.calcular{
+    background-color: #060630;
+    border: solid 1px #060630; ;
+}
+.limpar{
+    background-color: #f5cc80;
+    border: solid 1px  #f5cc80;
+}
+h2{
+    color: #fff;
+    background-color: #060630;
+    font-size: 2rem;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+table{
+    margin-top: 20px;
+    width: 600px;
+    margin-left: 30px;
+
+}
+
+.centro{
+    text-align: center;
+}
+th{
+    color: #060630;
+}
+th, td{
+    font-size: 1.2rem;
+    border-bottom: solid 1px #6b6b7c;
+}
+#imc{
+    width: 150px;
+    height: 80px;
+    background-color: #f5cc80;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    color: #060630;
+    
+}
+
+#resultadoIMC{
+    font-size: 2rem;
+    text-align: center;
+    color: #060630;
+
+}
+
+.colorir{
+    background-color: #fad399;
+}
